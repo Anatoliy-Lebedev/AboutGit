@@ -31,3 +31,45 @@ $ touch README.md
 ```
 Откройте файл любым текстовым редактором (удобно пользоваться Notepad++) и наполните файл содержанием, используя Markqown-синтаксис.
 
+## Проверка статуса репозитория
+Войдите в директорию проекта и по команде **git status** проверьте статус репозитория
+``` Bash
+$ cd ~/dev/AboutGit/
+$ git status
+```
+
+увидим что-то вроде:
+
+``` Bash
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+```
+
+Состояние *untracked* значит, что Git ещё не хранит информацию о версиях файла и не может отследить, как он изменялся.
+
+## Готовим файлы проекта для коммита
+``` Bash
+$ git add --all
+```
+## Делаем первый коммит
+``` Bash
+$ git commit -m 'Добавили описание в проект'
+```
+## Вносим изменения в проект и делаем новый коммит
+Через текстовый редактор меняем содержимое файла README.md. Сохраняем файл.
+<br>
+Обновляем данные для коммита и делаем новый коммит
+``` Bash
+$ git add --all
+$ git commit -m 'Обновили описание в проект'
+```
+
+
+
