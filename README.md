@@ -134,7 +134,7 @@ To github.com:Anatoliy-Lebedev/AboutGit.git
 ## Результат
 После перехода на страницу проекта на GitHub увидим примерно следующее:
 <br>
-<image src="/images/result.png" alt="Первый результат публикации проекта">
+<image src="/images/result.PNG" alt="Первый результат публикации проекта">
 
 
 
