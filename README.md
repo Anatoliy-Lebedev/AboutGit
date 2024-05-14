@@ -115,6 +115,19 @@ $ git push -u origin master
 ```Bash
 $ git push
 ```
+В ответ на эту инструкцию будем видеть примерно следующее
+```Bash
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 530 bytes | 530.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:Anatoliy-Lebedev/AboutGit.git
+   39a4ae1..35898b7  master -> master
+
+```
 
 
 
