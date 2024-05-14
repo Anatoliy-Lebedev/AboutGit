@@ -107,7 +107,14 @@ origin  git@github.com:Anatoliy-Lebedev/AboutGit.git (fetch)
 origin  git@github.com:Anatoliy-Lebedev/AboutGit.git (push)
 ```
 В выводе вы должны увидеть две строчки, аналогичные тем, что показаны выше.
-
+## Синхронизируем локальный и удалённый репозитории
+```Bash
+$ git push -u origin master
+```
+При следующих итерациях отправки обновлений на удаленный репозиторий достаточно выполнять команду
+```Bash
+$ git push
+```
 
 
 
