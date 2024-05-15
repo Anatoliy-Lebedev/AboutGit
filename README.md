@@ -200,9 +200,10 @@ Date:   Wed May 15 17:41:56 2024 +0300
 graph LR;
   untracked -- "git add" --> staged;
   staged    -- "git commit" --> tracked/comitted;
+  tracked/comitted   -- "изменения" --> modified;
+  modified -- "git add" --> staged;
+  staged   -- "изменения" --> modified;
 
-%% стрелка без текста для примера: 
-  A --> B;
 ``` 
 
 
